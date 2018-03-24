@@ -1,13 +1,16 @@
 # get-it-done
-# Automation tests 
+# Automation tests
+==================
 Please implement the following scenarios in any language and any automation framework of your choice.
 Please include run instructions.
 url: https://www.apple.com/uk/
-
+# Tools used
+============
 I have written the automated tests using selenium-webdriver and java. This project
 can be compiled and built using maven commands. I have also included a reporting function using extent reports. 
 
-#Instruction
+# Instruction
+=============
 1. Git clone this repo - git clone https://github.com/nkrishna79/get-it-done.git
 2. Open the project in one of your preferred IDE. I used intelliJ. 
 3. Once the project has downloaded successfully - simply just run the following command from command prompt
