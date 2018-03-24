@@ -8,7 +8,7 @@ url: https://www.apple.com/uk/
 # Tools used
 ============
 
-I have written the automated tests using selenium-webdriver and java. This project
+I have written the automated tests using cucumberjvm, selenium-webdriver and java. This project
 can be compiled and built using maven commands. I have also included a reporting function using extent reports. 
 
 # Instruction
