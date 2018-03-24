@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="168.991012">
+<testcase classname="Buying a MacBook Pro on the website" name="A MacBook 15” with accessories can be ordered on the website" time="89.38143">
+<system-out><![CDATA[Given I go to the website...................................................passed
+When I choose a MacBook Pro with the following features and accessories.....passed
+Then I can place an order for it............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buying a MacBook Pro on the website" name="The correct price and VAT are displayed for a MacBook 15” with accessories" time="79.609582">
+<system-out><![CDATA[Given when I choose the following items:....................................passed
+When I proceed to the checkout..............................................passed
+Then a total price of £2917.99 will be displayed............................passed
+And £486.34 will be listed for VAT..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
