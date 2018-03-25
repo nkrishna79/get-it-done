@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="runners.TestRunner" time="0.009" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="runners.TestRunner" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
     <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\krish.murthy\eclipse-workspace\automationtests"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\krish.murthy\eclipse-workspace\get-it-done"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\krish.murthy\eclipse-workspace\automationtests"/>
+    <property name="user.dir" value="C:\Users\krish.murthy\eclipse-workspace\get-it-done"/>
     <property name="java.runtime.version" value="1.8.0_152-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
@@ -62,12 +62,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="Given I go to the website" time="0.005"/>
+  <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="Given I go to the website" time="0.013"/>
   <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="When I choose a MacBook Pro with the following features and accessories" time="0"/>
   <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="Then I can place an order for it." time="0"/>
-  <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="Scenario: A MacBook 15” with accessories can be ordered on the website" time="0.002"/>
-  <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="Given when I choose the following items:" time="0.001"/>
-  <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="When I proceed to the checkout" time="0.001"/>
+  <testcase classname="Scenario: A MacBook 15” with accessories can be ordered on the website" name="Scenario: A MacBook 15” with accessories can be ordered on the website" time="0"/>
+  <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="Given when I choose the following items:" time="0"/>
+  <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="When I proceed to the checkout" time="0"/>
   <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="Then a total price of £2917.99 will be displayed" time="0"/>
   <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="And £486.34 will be listed for VAT." time="0"/>
   <testcase classname="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" name="Scenario: The correct price and VAT are displayed for a MacBook 15” with accessories" time="0"/>

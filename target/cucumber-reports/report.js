@@ -89,21 +89,21 @@ formatter.match({
   "location": "BuyMacBookProStepDefs.iGoToTheWebsite()"
 });
 formatter.result({
-  "duration": 35170072975,
+  "duration": 6170787236,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyMacBookProStepDefs.iChooseAMacBookProWithTheFollowingFeaturesAndAccessories(DataTable)"
 });
 formatter.result({
-  "duration": 52039597401,
+  "duration": 34164607548,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyMacBookProStepDefs.iCanPlaceAnOrderForIt()"
 });
 formatter.result({
-  "duration": 2171759489,
+  "duration": 3021405905,
   "status": "passed"
 });
 formatter.scenario({
@@ -174,28 +174,28 @@ formatter.match({
   "location": "BuyMacBookProStepDefs.whenIChooseTheFollowingItems(DataTable)"
 });
 formatter.result({
-  "duration": 75457587543,
+  "duration": 40671005107,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyMacBookProStepDefs.iProceedToTheCheckout()"
 });
 formatter.result({
-  "duration": 160487,
+  "duration": 144158,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyMacBookProStepDefs.a_total_price_of_291799_will_be_displayed()"
 });
 formatter.result({
-  "duration": 2053906882,
+  "duration": 2089176262,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyMacBookProStepDefs.a_VATPRICE_will_be_listed_for_vat()"
 });
 formatter.result({
-  "duration": 2097927477,
+  "duration": 2956584965,
   "status": "passed"
 });
 });
