@@ -66,25 +66,23 @@ public class WebDriverManager {
     }
 
     private WebDriver createRemoteDriver() throws MalformedURLException {
-        String USERNAME = "natarajankrishna1";
-        String AUTOMATE_KEY = "9AKxJyCyDatMzUimdqRd";
-        String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("os", "Windows");
-        caps.setCapability("os_version", "7");
+        final String USERNAME = "krishtest1";
+        final String AUTOMATE_KEY = "PT2YL6K6B74sKghdoP8s";
+        final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+        DesiredCapabilities caps = DesiredCapabilities.chrome();
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "65.0");
+        caps.setCapability("os", "Windows");
+        caps.setCapability("os_version", "7");
         caps.setCapability("resolution", "1920x1080");
-                caps.setCapability("browserstack.selenium_version", "3.10.0");
-        caps.setCapability("project", "CucumberTests");
         caps.setCapability("browserstack.local", "true");
         caps.setCapability("browserstack.debug", "true");
-           caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, "true");
+        caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, "true");
         // driver = new RemoteWebDriver(new URL(URL), caps);
         System.out.println("Called openBrowser");
 //        driver.manage().window().maximize();
         return new RemoteWebDriver(new URL(URL), caps);
-
     }
 
     private WebDriver createLocalDriver() {

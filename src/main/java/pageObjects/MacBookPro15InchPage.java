@@ -90,11 +90,17 @@ public class MacBookPro15InchPage {
         Thread.sleep(1000);
         System.out.println("Choosen accessory:" + accessories);
         select_SearchButton.click();
+        Thread.sleep(1000);
         select_SearchBox.click();
+        Thread.sleep(1000);
         select_SearchBox.clear();
+        Thread.sleep(1000);
         select_SearchBox.sendKeys(accessories);
+        Thread.sleep(1000);
         select_SearchBox.sendKeys(Keys.ENTER);
+        Thread.sleep(1000);
         select_USBCToUSB.click();
+        Thread.sleep(1000);
         select_AddToBagAccessories.click();
         Thread.sleep(2000);
     }
