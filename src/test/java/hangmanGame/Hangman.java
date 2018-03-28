@@ -9,9 +9,18 @@ public class Hangman {
     private static String dashes = new String(new char[word.length()]).replace("\0", "-");
     private static int count = 0;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         while (count < 9 && dashes.contains("-")) {
+            System.out.println("/n" +
+                    "Game Rules: " +
+                    "1) When the game starts the player can see how many characters the word has.\n" +
+                    "2) The player can guess up to 9 times if a letter appears in the secret word.\n" +
+                    "   If the letter is in the word then the place of the character is shown to the player.\n" +
+                    "   Over the span of the game the incomplete word will appear to the player.\n" +
+                    "3) At any stage player can propose a word. Each proposal reduces the number of attempts by one.\n" +
+                    "4) The player wins if he can find the secret word within the guess limit. Otherwise the game is lost.");
+            Thread.sleep(10000);
             System.out.println("Guess any letter in the word");
             System.out.println(dashes);
             String guess = sc.next();

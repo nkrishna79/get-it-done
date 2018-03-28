@@ -7,7 +7,13 @@ Please include run instructions.
 url: https://www.apple.com/uk/
 # Tools used
 ============
-
+Environment: Windows 10, 
+for local testing Browser = Chrome 65,
+IDE: intelliJ 
+Selenium version: 3.11.0
+CucumberJVM 
+ExtentReports 
+Cross browser testing using browserstack  
 I have written the automated tests using cucumberjvm, selenium-webdriver and java. This project
 can be compiled and built using maven commands. I have also included a reporting function using extent reports. 
 
@@ -22,4 +28,13 @@ by navigating to the project root :
    a. index.html - is the cucumber html report
    b. report.html - is the extent report function 
 
+#Hangman Game
+=============
+Hangman.java is a very simple implementation of the game. The only difference between 
+the standard game and this one is that a player can also suggest words during the guessing process of letter 
+to find the challenge word. 
+
+# Run instructions
+==================
+To run this code, simple right click on hangman.java file and hit run. 
 
