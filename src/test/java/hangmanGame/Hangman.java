@@ -21,7 +21,7 @@ public class Hangman {
                     "3) At any stage player can propose a word. Each proposal reduces the number of attempts by one.\n" +
                     "4) The player wins if he can find the secret word within the guess limit. Otherwise the game is lost.");
             Thread.sleep(10000);
-            System.out.println("Guess any letter in the word");
+            System.out.println("Guess any letter in the word [OR] Guess the word");
             System.out.println(dashes);
             String guess = sc.next();
             hang(guess);
@@ -66,28 +66,29 @@ public class Hangman {
 
     public static void hangmanTrial() {
         if (count == 1) {
-            System.out.println("Wrong guess, try again");
+            System.out.println("Wrong guess, try again [OR] Guess the challenge word");
+            
         }
         if (count == 2) {
-            System.out.println("Wrong guess, try again");
+            System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 3) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 4) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 5) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 6) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 7) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 8) {
-            System.out.println("Wrong guess, try again");
+           System.out.println("Wrong guess, try again [OR] Guess the challenge word");
         }
         if (count == 9) {
             System.out.println("GAME OVER!");
