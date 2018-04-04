@@ -30,11 +30,9 @@ by navigating to the project root :
 
 #Hangman Game
 =============
-Hangman.java is a very simple implementation of the game. The only difference between 
-the standard game and this one is that a player can also suggest words during the guessing process of letter 
-to find the challenge word. 
+Hangman.java is a very simple implementation of the traditional game. Hangmantest.java has got some simple unit tests surrounding the hangman module.  
 
 # Run instructions
 ==================
-To run this code, simple right click on hangman.java file and hit run. 
+To run this code, simple right click on Hangman.java/HangmanTest.java file and hit run. 
 
